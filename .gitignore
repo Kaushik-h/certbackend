@@ -9,4 +9,4 @@
 logs/
 run/
 serverrestart.sh
-*.json
+# *.json

@@ -6,4 +6,4 @@ from .views import *
 class AccountTests(APITestCase):
     def test_create_account(self):
         response = self.client.get('/getquiz/')
-        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)

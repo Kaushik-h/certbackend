@@ -48,8 +48,14 @@ INSTALLED_APPS = [
     'certificate',
     'quiz',
     'knox',
-    'corsheaders'
+    'corsheaders',
+    'django_jenkins'
 ]
+
+JENKINS_TASKS = (
+    'django_jenkins.tasks.run_pep8',
+    'django_jenkins.tasks.run_pyflakes',
+)
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ( 

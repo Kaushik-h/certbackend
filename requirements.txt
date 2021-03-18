@@ -4,9 +4,11 @@ cachetools==4.2.1
 certifi==2020.12.5
 cffi==1.14.5
 chardet==4.0.0
+coverage==5.5
 cryptography==3.4.6
 Django==3.1.7
 django-cors-headers==3.7.0
+django-jenkins==0.110.0
 django-rest-knox==4.1.0
 django-storages==1.11.1
 djangorestframework==3.12.2
@@ -25,10 +27,12 @@ isort==5.7.0
 lazy-object-proxy==1.5.2
 mccabe==0.6.1
 packaging==20.9
+pep8==1.7.1
 protobuf==3.15.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.20
+pyflakes==2.3.0
 pylint==2.7.2
 pylint-django==2.4.2
 pylint-plugin-utils==0.6

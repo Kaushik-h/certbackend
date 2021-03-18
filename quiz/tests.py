@@ -5,5 +5,5 @@ from .views import *
 
 class AccountTests(APITestCase):
     def test_create_account(self):
-        response = self.client.get('/getquiz/')
+        response = self.client.get('/getquiz/1')
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)

@@ -8,7 +8,7 @@ from .views import *
 
 class ViewRequestFactoryTestMixin(object):
 	"""Mixin with shortcuts for view tests."""
-	longMessage = True  # More verbose messages
+	longMessage = True  
 	view_class = None
 	def get_response(self, method):
 		factory = RequestFactory()

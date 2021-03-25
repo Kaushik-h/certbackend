@@ -10,7 +10,7 @@ from certbackend.settings import BASE_DIR
 import os
 
 class AddQuizView(generics.CreateAPIView):
-	# permission_classes = [permissions.IsAdminUser,]
+	# permission_classes = [permissions.IsAdminUser]
 	serializer_class=QuizSerializer
 	queryset=Quiz.objects.all()
 

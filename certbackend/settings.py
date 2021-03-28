@@ -122,8 +122,8 @@ DATABASES = {
         'NAME': 'credify',
         'USER': 'credifyadmin',
         'PASSWORD': 'credifyadmin',
-        'HOST': '35.226.188.174',
-        'PORT': '',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 

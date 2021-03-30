@@ -12,7 +12,7 @@ spec:
         app: credify-backend
     spec:
       containers:
-      - image: gcr.io/sunlit-core-307817/credifydjango:tagversion
+      - image: kaushikhareesh/credifydjango:tagversion
         name: credifydjango
         imagePullPolicy: Always
         # ... other container configuration

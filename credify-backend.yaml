@@ -14,7 +14,7 @@ spec:
       containers:
       - image: gcr.io/sunlit-core-307817/credifydjango
         name: credifydjango
-        imagePullPolicy: Always
+        # imagePullPolicy: Always
         # ... other container configuration
         env:
         - name: DB_USER

@@ -1,0 +1,22 @@
+pipeline {
+  agent any
+  tools {nodejs "node"}
+  stages {
+    stage('Build') {
+      steps {
+        git branch: 'main', url: 'https://github.com/techhype/Credify.git'
+        sh 'npm install'
+      }
+    }
+    stage('Test') {
+      steps {
+        sh 'set CI=true&npm run test'
+      }
+    }
+  }}
+  
+  
+  
+  
+docker tag kaushikhareesh/credifydjango gcr.io/sunlit-core-307817/credifydjango
+docker push gcr.io/sunlit-core-307817/credifydjango
